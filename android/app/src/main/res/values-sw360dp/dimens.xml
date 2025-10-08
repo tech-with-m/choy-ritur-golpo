@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Medium devices (360dp and above) - Standard text sizes for widgets -->
+    
+    <!-- Widget text sizes for medium screens -->
+    <dimen name="widget_bangla_date_text_size">30sp</dimen>
+    <dimen name="widget_temperature_text_size_4x2">30sp</dimen>
+    <dimen name="widget_weather_desc_text_size_4x2">30sp</dimen>
+    <dimen name="widget_temperature_text_size_4x1">18sp</dimen>
+    <dimen name="widget_weather_desc_text_size_4x1">18sp</dimen>
+    <dimen name="widget_bangla_date_text_size_4x1">18sp</dimen>
+    
+    <!-- Standard padding for medium screens -->
+    <dimen name="widget_container_padding_4x2">4dp</dimen>
+    <dimen name="widget_inner_padding_4x2">5dp</dimen>
+    <dimen name="widget_container_padding_4x1">3dp</dimen>
+    <dimen name="widget_inner_padding_4x1">3dp</dimen>
+    
+    <!-- Icon size for medium screens -->
+    <dimen name="widget_weather_icon_size_4x2">44dp</dimen>
+</resources>

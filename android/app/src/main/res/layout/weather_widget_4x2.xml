@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_container_padding_4x2">
+
+    <RelativeLayout
+        android:id="@+id/widget_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/widget_background_glass"
+        android:padding="@dimen/widget_inner_padding_4x2">
+
+        <!-- Date Section -->
+        <LinearLayout
+            android:id="@+id/date_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp">
+
+            <!-- Bangla Date (long text) -->
+            <TextView
+                android:id="@+id/bangla_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textSize="@dimen/widget_bangla_date_text_size"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:shadowColor="#40000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:autoSizeTextType="none"
+                tools:text="১৯ মাঘ, ১৪৩০ বঙ্গাব্দ, সোমবার, পৌষ সংক্রান্তি"/>
+
+        </LinearLayout>
+
+        <!-- Bottom Section: Weather Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:baselineAligned="false"
+            android:layout_marginTop="8dp">
+
+            <!-- Weather Icon (right-aligned) -->
+            <ImageView
+                android:id="@+id/weather_icon"
+                android:layout_width="@dimen/widget_weather_icon_size_4x2"
+                android:layout_height="@dimen/widget_weather_icon_size_4x2"
+                android:layout_marginEnd="12dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:contentDescription="Weather Icon"
+                tools:src="@drawable/cloud" />
+
+            <!-- Weather Text Info -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="8dp">
+
+                <!-- Temperature -->
+                <TextView
+                    android:id="@+id/temperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textSize="@dimen/widget_temperature_text_size_4x2"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:shadowColor="#40000000"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="1"
+                    tools:text="৩০°" />
+
+                <!-- Weather Description (long possible) -->
+                <TextView
+                    android:id="@+id/weather_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="@dimen/widget_weather_desc_text_size_4x2"
+                    android:textColor="#FFFFFF"
+                    android:shadowColor="#40000000"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="1"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    tools:text=" " />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

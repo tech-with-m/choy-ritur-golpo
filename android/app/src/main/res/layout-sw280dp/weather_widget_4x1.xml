@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_container_padding_4x1">
+
+    <RelativeLayout
+        android:id="@+id/widget_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/widget_background_glass"
+        android:padding="@dimen/widget_inner_padding_4x1">
+
+        <!-- Single Row Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <!-- Weather Icon -->
+            <ImageView
+                android:id="@+id/weather_icon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                tools:src="@drawable/cloud" />
+
+            <!-- Temperature -->
+            <TextView
+                android:id="@+id/temperature"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:fontFamily="sans-serif"
+                android:shadowColor="#40000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/widget_temperature_text_size_4x1"
+                android:textStyle="bold"
+                tools:text="২৮°" />
+
+            <!-- Weather Description -->
+            <TextView
+                android:id="@+id/weather_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:maxLines="3"
+                android:shadowColor="#40000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/widget_weather_desc_text_size_4x1"
+                tools:text="মেঘলা আকাশ, হালকা বাতাস" />
+
+            <!-- Bangla Date -->
+            <TextView
+                android:id="@+id/bangla_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:maxLines="3"
+                android:shadowColor="#40000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/widget_bangla_date_text_size_4x1"
+                tools:text="১৯ মাঘ" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

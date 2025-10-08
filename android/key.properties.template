@@ -1,0 +1,5 @@
+# Replace these values with your actual keystore information
+storePassword=your_store_password
+keyPassword=your_key_password
+keyAlias=choy_ritur_golpo
+storeFile=choy_ritur_golpo.keystore

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description_4x2">আবহাওয়া উইজেট (বড়)</string>
+    <string name="widget_description_4x1">আবহাওয়া উইজেট (ছোট)</string>
+    <string name="widget_description">আবহাওয়া উইজেট</string>
+    <string name="app_widget_description">আবহাওয়া উইজেট</string>
+    <string name="widget_title">আবহাওয়া</string>
+    <string name="widget_glass_theme">স্বচ্ছ থিম</string>
+    <string name="widget_light_text">হালকা টেক্সট</string>
+    <string name="widget_size">উইজেট সাইজ</string>
+    <string name="widget_size_4x2">বড় (4x2)</string>
+    <string name="widget_size_4x1">ছোট (4x1)</string>
+    <string name="date_format_widget_oreo_style">EEEE, d MMMM</string>
+    <string name="date_format_widget_oreo_big_style">EEEE, d MMMM</string>
+</resources>

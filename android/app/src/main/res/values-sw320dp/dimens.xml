@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Small devices (320dp and above) - Responsive text sizes for widgets -->
+    
+    <!-- Widget text sizes for small screens -->
+    <dimen name="widget_bangla_date_text_size">14sp</dimen>
+    <dimen name="widget_temperature_text_size_4x2">14sp</dimen>
+    <dimen name="widget_weather_desc_text_size_4x2">12sp</dimen>
+    <dimen name="widget_temperature_text_size_4x1">12sp</dimen>
+    <dimen name="widget_weather_desc_text_size_4x1">10sp</dimen>
+    <dimen name="widget_bangla_date_text_size_4x1">10sp</dimen>
+    
+    <!-- Reduced padding for small screens -->
+    <dimen name="widget_container_padding_4x2">5dp</dimen>
+    <dimen name="widget_inner_padding_4x2">6dp</dimen>
+    <dimen name="widget_container_padding_4x1">2dp</dimen>
+    <dimen name="widget_inner_padding_4x1">2dp</dimen>
+    
+    <!-- Icon size for small screens -->
+    <dimen name="widget_weather_icon_size_4x2">44dp</dimen>
+</resources>
