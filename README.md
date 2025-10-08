@@ -349,7 +349,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/tech-with-m/choy-ritur-golpo/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/tech-with-m/choy-ritur-golpo/discussions)
-- **Email**: [Your Email]
 
 ---
 
